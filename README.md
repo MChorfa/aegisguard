@@ -227,8 +227,8 @@ flowchart TB
     AI --> AI_Efficiency
 
     %% Class Definitions
-    classDef primary fill:#f8f8ff,stroke:#000,stroke-width:2px;
-    classDef secondary fill:#c0c0c0,stroke:#2e3347,stroke-width:1px;
+    classDef primary fill:#00152b,stroke:#fcca46,stroke-width:2px,color:#fcca46;
+    classDef secondary fill:#38a3a5,stroke:#800020,stroke-width:1px,color:#ffffff;
     class UI,API,Gas,Service,Observability,Infra,AI primary;
     class Tenant,Compliance,EnvImpact,WASM,Storage,Messaging,BackupDR secondary;
 ```
