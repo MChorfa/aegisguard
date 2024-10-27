@@ -81,7 +81,7 @@ flowchart TD
         direction TD
 
         %% User Interface Layer
-        UI[User/UI Layer Web/Astro-based Dashboard]
+        UI[UserUI Layer WebAstroBased Dashboard]
 
         %% API Gateway Layer
         API[API Gateway Layer]
