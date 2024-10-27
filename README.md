@@ -75,13 +75,12 @@ AegisGuard is a **multi-tenant**, **secure**, and **scalable** service designed 
 ## Architecture Draft (v1)
 
 ```mermaid
-flowchart TD
-    %% Top-Level Architecture
+flowchart TB
     subgraph AegisGuard
-        direction TD
+        direction TB
 
         %% User Interface Layer
-        UI[UserUI Layer WebAstroBased Dashboard]
+        UI[User-UI Layer Web-Astro-based]
 
         %% API Gateway Layer
         API[API Gateway Layer]
@@ -164,7 +163,6 @@ flowchart TD
         AI_Gas[Gas Usage Optimization]
         AI_Anomaly[Anomaly Detection]
         AI_Efficiency[Efficiency Improvement]
-
     end
 
     %% Connections
