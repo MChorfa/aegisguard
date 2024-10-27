@@ -8,7 +8,7 @@
 
 ## Core Mission
 
-AegisGuard is a **multi-tenant**, **secure**, and **scalable** cloud service designed for managing and deploying OCI-compliant artifacts such as container images, machine learning models, and WASM components. By integrating **Ethereum-inspired gas metering**, environmental impact tracking, and TRL-based data sensitivity compliance, AegisGuard offers a flexible, production-ready architecture tailored for diverse deployment scenarios.
+AegisGuard is a **multi-tenant**, **secure**, and **scalable** service designed for managing and deploying OCI-compliant artifacts such as container images, machine learning models, and WASM components. By integrating **Ethereum-inspired gas metering**, environmental impact tracking, and TRL-based data sensitivity compliance, AegisGuard offers a flexible, production-ready architecture tailored for diverse deployment scenarios.
 
 ## Features
 
