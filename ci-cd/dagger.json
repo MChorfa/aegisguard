@@ -1,4 +1,5 @@
 {
   "name": "AegisGuard",
+  "sdk": "go",
   "engineVersion": "v0.13.5"
 }

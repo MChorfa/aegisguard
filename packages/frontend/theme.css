@@ -1,0 +1,44 @@
+:root {
+    --deep-blue: #00152b; /* Dark Navy : Represents trust, security, and professionalism. */
+    --teal: #38a3a5; /* Teal : Symbolizes innovation, clarity, and a forward-thinking approach. */
+    --lavender-purple: #bc96e6; /* Lavender Purple : Represents creativity, luxury, and imagination. */
+    --dark-red: #8a0b15; /* Dark Red : Represents passion, strength, and energy. */
+    --light-sea-green: #2ec4b6; /* Light Sea Green : Represents calmness, relaxation, and harmony. */
+    --bright-yellow: #fcca46; /* Bright Yellow : Represents energy, positivity, and freshness. */
+    --rich-black: #011627; /* Rich Black : Represents elegance, sophistication, and power. */
+    --darker-slate-gray: #2e3347; /* Darker Slate Gray : Represents stability, reliability, and maturity. */
+    --saturated-slate-gray: #4a4e6d; /* Saturated Slate Gray : Represents balance, neutrality, and formality. */
+    --off-white: #f8f8ff; /* Off-White : Represents cleanliness, simplicity, and purity. */
+    --silver: #c0c0c0; /* Silver : Represents modernity, sophistication, and elegance. */
+    --white: #FFFFFF;   /* White : Represents purity, cleanliness, and simplicity. */
+    --ocean-bleu : #0077b6;  
+  }
+  
+  body {
+    background-color: var(--off-white);
+    color: var(--darker-slate-gray);
+  }
+  
+  body.dark-mode {
+    background-color: var(--rich-black);
+    color: var(--white);
+  }
+  
+  a {
+    color: var(--teal);
+  }
+  
+  .success {
+    background-color: var(--light-sea-green);
+    color: var(--rich-black);
+  }
+  
+  .error {
+    background-color: var(--dark-red);
+    color: var(--white);
+  }
+  
+  .warning {
+    background-color: var(--bright-yellow);
+    color: var(--rich-black);
+  }

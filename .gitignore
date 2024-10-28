@@ -32,3 +32,8 @@ Thumbs.db
 *.dockerfile
 docker-compose.override.yml
 
+# Dagger
+*/**/dagger.gen.go
+*/**/internal/dagger
+*/**/internal/querybuilder
+*/**/internal/telemetry
